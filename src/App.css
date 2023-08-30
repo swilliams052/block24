@@ -35,8 +35,32 @@
 
 .card {
   padding: 2em;
+
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.puppy-stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: slategray;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 10px;
+  align-items: flex-start;
+  border: solid snow 2px;
+  border-radius: 15px;
 }
